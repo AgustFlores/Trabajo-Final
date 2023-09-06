@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repuestos SN</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    
+    <script src="/js/javascript-home.js"></script>
+
+  </head>
+  <body class="af-background" background="/img/Background-Image.jpg">
+    <main>
+      <!--Nav de bootstrap-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./img/Repuestos-SN-Logo.jpg" width="100px" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Motor</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Encendido</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Suspensión</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="horarios de atencion.html">Horarios de atencion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Formulario de contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Más
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" onclick="calcularCostoEnvio()"> Costos de envío </a></li>
+                    <li><a class="dropdown-item" href="#">Suspensión</a></li>
+                    <li><a class="dropdown-item" href="#">Horarios de atención</a></li>
+                  </ul>
+                  </li>
+                  </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      <!-- Cartas con imagenes de productos -->
+      <div class="card-group">
+        <div class="card">
+          <img src="./img/Repuestos-SN-Kit-De-Distribucion-Bomba-De-Agua-Original-Mopar-Vmg-Fiat-Palio-Siena-Fire.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Motor</h5>
+            <p class="card-text">Los repuestos de motores de autos son componentes esenciales para el funcionamiento óptimo
+                 de un vehículo. 
+                Incluyen piezas como bujías, filtros de aceite, correas de distribución y más. 
+                Mantener estos repuestos en buen estado garantiza un rendimiento confiable y prolonga la vida útil del motor, 
+                lo que es crucial para la seguridad y eficiencia de cualquier automóvil.</p>
+            <p class="card-text"><small class="text-body-secondary">Última actualización hace 3 minutos</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/Repuestos-SN-Cables-Bujias-NGK-Fire-Fiat.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Encendido</h5>
+            <p class="card-text">Los repuestos de encendido para motores de vehículos desempeñan un papel crucial en el funcionamiento
+                 óptimo del automóvil.
+                 Desde bujías y cables hasta distribuidores y bobinas, estos componentes aseguran una ignición confiable y eficiente, 
+                 mejorando el rendimiento y reduciendo emisiones.
+                 Mantenerlos en buen estado es esencial para un viaje seguro y eficiente.</p>
+            <p class="card-text"><small class="text-body-secondary">Última actualización hace 3 minutos</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/Repuestos-SN-Amortiguadores-Delanteros-Sachs-Volkswagen-Amarok.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Suspensión</h5>
+            <p class="card-text">
+                        Los amortiguadores y la suspensión son componentes vitales en un vehículo.
+                        Los amortiguadores absorben los impactos y mantienen las ruedas en contacto con la carretera, 
+                        mejorando la comodidad y el control. La suspensión ajusta la altura y la estabilidad,
+                        garantizando un manejo seguro. Un sistema bien mantenido es esencial para una conducción suave y segura.</p>
+            <p class="card-text"><small class="text-body-secondary">Última actualización hace 3 minutos</small></p>
+          </div>
+        </div>
+      </div>
+      <!-- Video Youtube -->
+    <section> 
+              <div class="container border py-5 my-5">
+                <div class="row"> 
+                    <iframe 
+                      width="702" height="395" src="https://www.youtube.com/embed/EDSTDHU6oFI" 
+                      title="Vídeo para taller mecánico"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen>
+                    </iframe>
+                </div>
+              </div>
+    </section>
+    <!-- Carrusel de empleados -->
+    <div class="gtco-testimonials">
+      <h2>Nuestro equipo de trabajo</h2>
+      <div class="owl-carousel owl-carousel1 owl-theme owl-loaded owl-drag">
+        
+        
+        
+        
+      <div class="owl-stage-outer"><div class="owl-stage" style="transition: all 0s ease 0s; width: 1500px; transform: translate3d(188px, 0px, 0px);"><div class="owl-item active center" style="width: 375px;"><div>
+          <div class="card text-center"><img class="card-img-top" src="/img/Natalia-Natalia.jpg" alt="">
+            <div class="card-body">
+              <h5> Natalia, Natalia <br>
+                <span> Gerente General </span>
+              </h5>
+              <p class="card-text">“ Nuestro gerente es el líder que guía nuestro equipo hacia el éxito.
+                 Su habilidad para tomar decisiones, motivar y planificar es fundamental para el progreso de la organización.” </p>
+            </div>
+          </div>
+        </div></div><div class="owl-item active" style="width: 375px;"><div>
+          <div class="card text-center"><img class="card-img-top" src="/img/Juan-Faerman.jpg" alt="">
+            <div class="card-body">
+              <h5>Faerman, Juan<br>
+                <span> Ingeniero </span>
+              </h5>
+              <p class="card-text">“ Nuestro ingeniero es un profesional dedicado a resolver problemas complejos mediante la aplicación de principios científicos y técnicos.
+                 Su creatividad y conocimiento impulsan la innovación y el progreso de nuestra empresa. ” </p>
+            </div>
+          </div>
+        </div></div><div class="owl-item" style="width: 375px;"><div>
+          <div class="card text-center"><img class="card-img-top" src="/img/Yayo.jpg" alt="">
+            <div class="card-body">
+              <h5>Guridi, José Carlos<br>
+                <span> Vendedor </span>
+              </h5>
+              <p class="card-text">“ Nuestro vendedor es un experto en conectar con clientes, comprender sus necesidades y ofrecer soluciones.
+                 Su habilidad para persuadir y construir relaciones impulsa el crecimiento de nuestra empresa. ” </p>
+            </div>
+          </div>
+        </div></div><div class="owl-item" style="width: 375px;"><div>
+          <div class="card text-center"><img class="card-img-top" src="/img/Agust.jpg" alt="">
+            <div class="card-body">
+              <h5>Flores, Agustin<br>
+                <span> Viajante </span>
+              </h5>
+              <p class="card-text">“ Nuestro vendedor viajante es un profesional que recorre territorios, estableciendo conexiones comerciales cara a cara.
+                 Su habilidad para adaptarse, persuadir y construir relaciones es esencial para el éxito de nuestra empresa. ” </p>
+            </div>
+          </div>
+        </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+    </div>
+          <!-- Descargar PDF falso -->
+          <div class="container-fluid archivo-falso">
+          <a href="./file/archivo.pdf" download="nombre-para-el-usuario.pdf">
+            <H1> Haga click para descargar nuestra lista de precios</H1>
+            </a>
+          </div>
+          <!-- Link Whatsapp -->
+          <div class="container-fluid link-whatsapp">
+          <a href="https://wa.me/34555005500"></a>
+          <a href="https://wa.me/34555005500/?text=Haga%20su%20consulta" target="_blank">
+          <img src="/img/logo-wasap.png" width="50" height="50">
+          <h5>Atención personalizada</h5>
+         </a>
+          </div>
+    </main>
+  <footer class="fondo">
+    <!-- Pie de pagina -->
+    <div class="card text-center">
+        <div class="card-header carta">
+          <h1>Repuestos SN</h1>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Muchas gracias por confiar en nosotros</h5>
+          <p class="card-text"> <a href="contacto.html"> Contactenos</p> </a>
+          <a href="#" class="btn btn-primary">Volver al inicio</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            © Flores, Agustín. 2023.
+        </div>
+      </div>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>   
+<script src="/js/javascript.js"></script> 
+</html>

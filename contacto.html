@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repuestos SN</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  </head>
+  <body>
+<!--Nav de bootstrap-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="./img/Repuestos-SN-Logo.jpg" width="100px" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Motor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Encendido</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Suspensión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="horarios de atencion.html">Horarios de atencion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Formulario de contacto</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" onclick="calcularCostoEnvio()"> Costos de envío </a></li>
+            <li><a class="dropdown-item" href="#">Suspensión</a></li>
+            <li><a class="dropdown-item" href="#">Horarios de atención</a></li>
+          </ul>
+          </li>
+          </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<main>
+  <!-- Formulario de contacto -->
+        <h1>Formulario de contacto</h1>
+        <form class="row g-3">
+            <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-12">
+            <label for="inputPassword4" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+            <label for="inputAddress" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Presidente Perón 1710">
+            </div>
+            <div class="col-md-4">
+            <label for="inputCity" class="form-label">Provincia</label>
+            <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+            <label for="inputState" class="form-label">Ciudad</label>
+            <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+            </div>
+            <div class="col-md-2">
+            <label for="inputZip" class="form-label">Código Postal</label>
+            <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                Acepto recibir información via correo electrónico
+                </label>
+            </div>
+            </div>
+            <div class="col-12">
+            <button type="submit" class="btn btn-primary"> Suscribirme </button>
+            </div>
+        </form>
+    </main>
+  <footer class="fondo">
+    <!-- Pie de pagina -->
+    <div class="card text-center">
+        <div class="card-header carta">
+          <h1>Repuestos SN</h1>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Muchas gracias por confiar en nosotros</h5>
+          <p class="card-text"> <a href="contacto.html"> Contactenos</p> </a>
+          <a href="#" class="btn btn-primary">Volver al inicio</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            © Flores, Agustín. 2023.
+        </div>
+      </div>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>   
+<script src="/js/javascript.js"></script> 
+</html>
